@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+
+body {
+    background: #63636e;
+    text-align: center;
+}
+
+
+* {
+    cursor: url(https://cur.cursors-4u.net/anime/ani-12/oth1126.ani),
+        url(https://cur.cursors-4u.net/anime/ani-12/oth1126.png), auto !important;
+} 
+
+
+h1 {
+    font-family: Mate Sc;
+    font-size: 3em;
+    color: white;
+}
+
+#eye {
+    cursor: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 250px;
+    background: white;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 30px 1px #222236ad;
+}
+
+#eyeBall {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 70px;
+    width: 70px;
+    transform: translate(-50%, -50%);
+    background: black;
+    border-radius: 50%;
+    transition: 0;
+}
